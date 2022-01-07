@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jQuery.js"></script>
+    <title>TIN Project</title>
+</head>
+<body>
+    <div class="burger">+</div>
+    <div class="first-page">
+        <nav class="nav-bar">
+            <ul class="nav-bar__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="loginBtn"><a href="loginPage/index.html">Login/Register</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <span class="textAbout"></span><span class="aboutCursor">|</span>
+        </div>
+    </div>
+    <div class="second-page">
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <i class="fab fa-html5"></i>
+                <p>HyperText Markup Language is the computer language that facilitates website creation</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <i class="fab fa-css3"></i>
+                <p>Cascading style sheets (CSS) are an extension to HTML that allow you to specify formatting for an HTML document. On this page I didn't use the  pre-processor Sass</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <i class="fab fa-js-square"></i>
+                <p>Javascript is no surprise. I used it here with the Vanilla JS, in the future maybe React</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="third-page swiper mySwiper">
+        <h1>My known technologies</h1>
+        <p>(at least the basics) :D</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                    <i class="fab fa-html5"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit voluptatem beatae non culpa ipsa, rerum numquam ut deserunt odio sequi voluptatum nesciunt magnam perferendis, expedita labore quam distinctio facere.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <i class="fab fa-css3"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit voluptatem beatae non culpa ipsa, rerum numquam ut deserunt odio sequi voluptatum nesciunt magnam perferendis, expedita labore quam distinctio facere.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <i class="fab fa-js-square"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit voluptatem beatae non culpa ipsa, rerum numquam ut deserunt odio sequi voluptatum nesciunt magnam perferendis, expedita labore quam distinctio facere.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <i class="fab fa-python"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit voluptatem beatae non culpa ipsa, rerum numquam ut deserunt odio sequi voluptatum nesciunt magnam perferendis, expedita labore quam distinctio facere.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                    <i class="fab fa-java"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati velit voluptatem beatae non culpa ipsa, rerum numquam ut deserunt odio sequi voluptatum nesciunt magnam perferendis, expedita labore quam distinctio facere.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="fourth">
+        <div class="content">
+            <span class="textAbout"></span><span class="aboutCursor">|</span>
+        </div>
+        <div class="times">
+            <div class="timeDiv your_time">
+                <div class="time"></div>
+                <div class="country_name">Your Time</div>
+            </div>            
+            <div class="timeDiv new_york">
+                <div class="time"></div>
+                <div class="country_name new_york">New York</div> 
+            </div>                    
+            <div class="timeDiv tokyo">
+                <div class="time"></div>
+                <div class="country_name tokyo">Tokyo</div>  
+            </div>                
+        </div>       
+    </div>
+    <script src="js/burger.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/aboutMe.js"></script>
+</body>
+</html>
